@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Paswords
+config.py
+
 # Ignoring large csv file
 movies_metadata.csv
 ratings.csv
