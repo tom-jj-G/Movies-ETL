@@ -15,6 +15,7 @@ The goals of this challenge are for you to:
 File with code: **challenge.ipynb**
 
 Data: cf. [Data](Data/) folder for Wikipedia dataset and link below for large .csv file (*movies_metadata.csv* for Kaggle dataset and *ratings.csv* for MovieLens dataset).
+
 https://drive.google.com/drive/folders/13f9OHeyWFwbavcMaZG8kKyuSlYLcdUTj?usp=sharing
 
 **NB: in order to run the code, large .csv files must be copied under a Data folder or path to files must be updated in the *challenge.ipynb* file**
