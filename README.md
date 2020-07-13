@@ -14,10 +14,10 @@ The goals of this challenge are for you to:
 
 File with code: **challenge.ipynb**
 
-Data: cf. [Data](Data/) folder and link below for large .csv file
+Data: cf. [Data](Data/) folder for Wikipedia dataset and link below for large .csv file (*movies_metadata.csv* for Kaggle dataset and *ratings.csv* for MovieLens dataset).
 https://drive.google.com/drive/folders/13f9OHeyWFwbavcMaZG8kKyuSlYLcdUTj?usp=sharing
 
-**NB: in order to run the code, large .csv files must be copied under a Data folder or path to files must be update in the *challenge.ipynb* file**
+**NB: in order to run the code, large .csv files must be copied under a Data folder or path to files must be updated in the *challenge.ipynb* file**
 
 ### Assumptions took
 
@@ -35,6 +35,7 @@ Based on that, we kept the Kaggle data and complete the missing value with Wikip
 
 #### Budget
 Same method used for Runtine.
+
 ![Image_budget](Images/Image_budget.png)
 
 The Wikipedia data appears to have more outliers compared to the Kaggle data. Thus, Kaggle data are missing too. 
@@ -42,6 +43,7 @@ Based on the results, we kept the Kaggle data and complete the missing value wit
 
 #### Box Office
 Same method used for Runtine.
+
 ![Image_revenue1](Images/Image_revenue1.png)
 
 ![Image_revenue2](Images/Image_revenue2.png)
@@ -50,6 +52,7 @@ Same as for budget, we kept the Kaggle data and complete the missing value with 
 
 #### Release Date
 Same method used for Runtine.
+
 ![Images_release_date](Images/Image_release_date.png)
 
 We noticed on outlier for Wikipedia data: these have been dropped as Kaggle data have been kept exclusively.
@@ -81,7 +84,7 @@ Here below the recap of resolutions made after taking the assumptions.
 ##### "movie" table
 For each movie, only the values below have been loaded in the table (if they were available):
 
-['imdb_id','id','title_kaggle','original_title','tagline','belongs_to_collection','url','imdb_link',
+>['imdb_id','id','title_kaggle','original_title','tagline','belongs_to_collection','url','imdb_link',
 'runtime','budget_kaggle','revenue','release_date_kaggle','popularity','vote_average','vote_count',
 'genres','original_language','overview','spoken_languages','Country',
 'production_companies','production_countries','Distributed by',
@@ -89,6 +92,7 @@ For each movie, only the values below have been loaded in the table (if they wer
 
 ##### "ratings" table
 For each movie, only the values below have been loaded in the table:
-['userId','movieId','rating','timestamp']
+
+>['userId','movieId','rating','timestamp']
 
 
