@@ -3,7 +3,7 @@
 ## Challenge
 
 ### Objectives
-The goals of this challenge are for you to:
+The goals of this challenge are to:
 
 - Create an automated ETL pipeline.
 - Extract data from multiple sources.
@@ -14,7 +14,7 @@ The goals of this challenge are for you to:
 
 File with code: **challenge.ipynb**
 
-Data: cf. [Data](Data/) folder for Wikipedia dataset and link below for large .csv file (*movies_metadata.csv* for Kaggle dataset and *ratings.csv* for MovieLens dataset).
+Data: cf. [Data](Data/) folder for Wikipedia dataset and the public link below for large .csv files (*movies_metadata.csv* for Kaggle dataset and *ratings.csv* for MovieLens dataset).
 
 https://drive.google.com/drive/folders/13f9OHeyWFwbavcMaZG8kKyuSlYLcdUTj?usp=sharing
 
@@ -24,23 +24,23 @@ https://drive.google.com/drive/folders/13f9OHeyWFwbavcMaZG8kKyuSlYLcdUTj?usp=sha
 
 #### Movie title
 
-Movie title have been taken form Kaggle source as this value was never null in Kaggle dataset.
+Movie title have been taken from Kaggle source as this value was never null in Kaggle dataset.
 
 #### Runtime
-Plotting of the same kind of data coming from Wikipedia or Kaggle: if the two columns were exactly the same, we’d see a scatter plot of a perfectly straight line. Any wildly different values will show up as dots far from that central line, and if one column is missing data, those values will fall on the x-axis or y-axis.
+Plotting the same kind of data from Wikipedia and from Kaggle: if the two columns were exactly the same, we’d see a scatter plot of a perfectly straight line. Any wildly different values will show up as dots far from that central line, and if one column is missing data, those values will fall on the x-axis or y-axis.
 
 ![Image_runtime](Images/Image_runtine.png)
 
 Data seem fairly equal between Wikipedia and Kaggle sources.
-Based on that, we kept the Kaggle data and complete the missing value with Wikipedia ones.
+Based on that, we kept the Kaggle data and choose to complete the missing values with Wikipedia ones.
 
 #### Budget
 Same method used for Runtine.
 
 ![Image_budget](Images/Image_budget.png)
 
-The Wikipedia data appears to have more outliers compared to the Kaggle data. Thus, Kaggle data are missing too. 
-Based on the results, we kept the Kaggle data and complete the missing value with Wikipedia ones.
+The Wikipedia data appear to have more outliers compared to the Kaggle ones. Thus, Kaggle data are missing too. 
+Based on the results, we kept the Kaggle data and complete the missing values with Wikipedia ones.
 
 #### Box Office
 Same method used for Runtine.
@@ -49,18 +49,18 @@ Same method used for Runtine.
 
 ![Image_revenue2](Images/Image_revenue2.png)
 
-Same as for budget, we kept the Kaggle data and complete the missing value with Wikipedia ones.
+Same as for budget, we kept the Kaggle data and complete the missing values with Wikipedia ones.
 
 #### Release Date
 Same method used for Runtine.
 
 ![Images_release_date](Images/Image_release_date.png)
 
-We noticed on outlier for Wikipedia data: these have been dropped as Kaggle data have been kept exclusively.
+We noticed an outlier for Wikipedia data: these data have been dropped and Kaggle data have been kept exclusively.
 
 
 #### Language
-In Wikipedia dataset, languages could have been store as a list.
+In Wikipedia dataset, some languages have been stored as a list.
 In Kaggle one, each movie has a unique language.
 In order to fasten the analysis, we kept only Kaggle data.
 
