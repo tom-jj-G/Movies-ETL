@@ -81,8 +81,8 @@ Here below the recap of resolutions made after taking the assumptions.
 |Language|original_language|Drop Wikipedia.|
 |Production companies|production_companies|Drop Wikipedia.|
 
-#### Columns loaded in database
-##### "movie" table
+### Columns loaded in database
+#### "movie" table
 For each movie, only the values below have been loaded in the table (if they were available):
 
 >['imdb_id','id','title_kaggle','original_title','tagline','belongs_to_collection','url','imdb_link',
@@ -91,7 +91,7 @@ For each movie, only the values below have been loaded in the table (if they wer
 'production_companies','production_countries','Distributed by',
 'Produced by','Directed by','Starring','Cinematography','Edited by','Written by','Based on']
 
-##### "ratings" table
+#### "ratings" table
 For each movie, only the values below have been loaded in the table:
 
 >['userId','movieId','rating','timestamp']
