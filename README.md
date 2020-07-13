@@ -10,7 +10,7 @@ The goals of this challenge are for you to:
 - Clean and transform the data automatically using Pandas and regular expressions.
 - Load new data into PostgreSQL.
 
-#### Resources
+### Resources
 
 File with code: **challenge.ipynb**
 
